@@ -344,6 +344,50 @@ p {
   text-align: left;
 }
 
+#project {
+  background-image: linear-gradient(60deg, #686772 0%, #29496b 100%);
+  padding: 100px;
+}
+
+#project .project {
+  flex-direction: column;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+#project .project-item {
+  padding: 50px;
+  color: white;
+}
+
+#project .project-top .section-title {
+  color: white;
+}
+
+#project .project-item h1 {
+  padding: 50px;
+  text-align: center;
+  font-size: 50px;
+}
+
+#project .project-item h2 {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+#project .project-item h3 {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+#project .project-item p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
 @keyframes row_puls {
   0% {
     opacity: 1;
