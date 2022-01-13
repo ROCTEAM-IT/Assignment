@@ -388,6 +388,60 @@ p {
   color: white;
 }
 
+#about .about {
+  flex-direction: column-reverse;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#about .about-top .section-title {
+  padding-top: 100px;
+}
+
+#about .col-left {
+  width: 250px;
+  height: 360px;
+}
+#about .col-right {
+  width: 100%;
+}
+#about .col-right h2 {
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+}
+
+#about .col-right h3 {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  background-color: grey;
+  color: white;
+}
+
+#about .col-right p {
+  margin-bottom: 20px;
+}
+
+#about .col-left .about-img {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  border: 10px solid white;
+}
+#about .col-left .about-img::after {
+  content: "";
+  position: absolute;
+  left: -33px;
+  top: 19px;
+  height: 98%;
+  width: 98%;
+  z-index: -1;
+}
+
 @keyframes row_puls {
   0% {
     opacity: 1;
@@ -429,6 +483,26 @@ p {
   }
   #team .all-mems .mem-img {
     height: 100%;
+  }
+
+  #about .about {
+    flex-direction: row;
+  }
+  #about .col-left {
+    width: 600px;
+    height: 400px;
+    padding-left: 60px;
+  }
+  #about .about .col-left .about-img::after {
+    left: -45px;
+    top: 34px;
+    height: 98%;
+    width: 98%;
+    border: 10px solid rgb(184, 5, 35);
+  }
+  #about .col-right {
+    text-align: left;
+    padding: 80px;
   }
 }
 
