@@ -369,6 +369,7 @@ p {
   width: 100%;
   flex-wrap: wrap;
   background-color: #313131;
+  padding-bottom: 100px;
 }
 
 #project .container .card {
