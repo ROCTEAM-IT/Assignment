@@ -564,7 +564,7 @@ p {
 #ref .img-slider {
   position: relative;
   width: 100%;
-  height: 950px;
+  height: 800px;
   background: linear-gradient(60deg, #686772 0%, #29496b 100%);
 }
 
@@ -590,8 +590,8 @@ p {
   top: 0;
   text-align: left;
   margin-top: 50px;
-  margin-left: 250px;
-  margin-right: 250px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 #ref .img-slider .slide .info h2 {
@@ -615,7 +615,7 @@ p {
   z-index: 2;
   position: absolute;
   display: flex;
-  bottom: 60px;
+  bottom: 80px;
   left: 50%;
   transform: translateX(-50%);
 }
