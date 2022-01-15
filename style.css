@@ -165,14 +165,9 @@ p {
 
 #hero p {
   color: white;
-  line-height: 20px;
+  line-height: 3px;
   font-size: 16px;
   margin-bottom: 50px;
-}
-
-#hero h4 .cta {
-  font-size: 20px;
-  padding: 20px;
 }
 
 #team .team {
@@ -583,7 +578,7 @@ p {
   z-index: 2;
   position: absolute;
   display: flex;
-  bottom: 120px;
+  bottom: 60px;
   left: 50%;
   transform: translateX(-50%);
 }
