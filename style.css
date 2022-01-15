@@ -246,6 +246,7 @@ p {
   text-align: center;
   max-width: 1500px;
   margin: 0 auto;
+  background-color: rgb(247, 245, 241);
 }
 
 #team .group .group-top h1 {
@@ -348,6 +349,43 @@ p {
 #tools .tools-item p {
   color: white;
   text-align: left;
+}
+
+.repo {
+  background-color: rgb(247, 245, 241);
+  padding-bottom: 200px;
+}
+
+.repo h2 {
+  padding-top: 100px;
+  font-size: 30px;
+  padding-bottom: 50px;
+  padding-left: 200px;
+}
+.repo .im img {
+  max-width: 900px;
+  height: auto;
+  margin-left: 280px;
+}
+
+.repo .im p {
+  text-align: center;
+}
+
+.repo .nd {
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 50px;
+}
+.repo .nd h5 {
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+.repo .nd p {
+  font-weight: 500;
+  font-size: 15px;
 }
 
 #project .section-title {
@@ -536,7 +574,6 @@ p {
 }
 
 #ref .img-slider .slide {
-  z-index: 1;
   position: absolute;
   width: 100%;
   clip-path: circle(0% at 0 50%);
@@ -772,7 +809,7 @@ p {
 }
 
 footer {
-  background: rgb(51, 57, 85);
+  background-color: rgb(12, 21, 65);
 }
 
 footer p {
