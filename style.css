@@ -370,11 +370,12 @@ p {
 
 .repo .im p {
   text-align: center;
+  padding-bottom: 30px;
 }
 
 .repo .nd {
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 250px;
+  padding-right: 250px;
   padding-top: 50px;
   text-align: left;
 }
